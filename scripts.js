@@ -21,7 +21,7 @@ const leo = {
 	address: {
 		number: leoNumber,
 		street: leoStreet,
-		'postal-code': leoPostal,
+		postalCode: leoPostal,
 	}
 }
 
@@ -33,9 +33,8 @@ const sarah =  {
 	address: {
 		number: sarahNumber,
 		street: sarahStreet,
-		'postal-code': sarahPostal,
+		postalCode: sarahPostal,
 	}
 }
-
-console.log(leo.address)
-console.log(sarah.address)
+console.log(leo, leo.address, leo.address.postalCode)
+console.log(sarah, sarah. address, sarah.address.postalCode)
